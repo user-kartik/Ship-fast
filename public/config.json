@@ -1,0 +1,24 @@
+{
+    "header": {
+      "title": "Welcome to ShipFast",
+      "subtitle": "Efficient Shipping Solutions for Your Business"
+    },
+    "features": [
+      {
+        "title": "Fast Delivery",
+        "description": "Get your packages delivered in record time."
+      },
+      {
+        "title": "Global Reach",
+        "description": "Ship to anywhere around the globe."
+      },
+      {
+        "title": "Affordable Prices",
+        "description": "Enjoy cost-effective shipping rates."
+      }
+    ],
+    "footer": {
+      "text": "© 2025 ShipFast - All Rights Reserved"
+    }
+  }
+  
