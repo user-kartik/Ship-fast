@@ -26,7 +26,6 @@ const B = () => {
 
   return (
     <div className="min-h-screen bg-zinc-900 text-white p-8">
-      {/* Featured Section */}
       <div className="flex justify-center items-center gap-8 mb-12">
         <span className="text-gray-400">Featured on</span>
         <div className="flex items-center gap-6">
@@ -49,10 +48,7 @@ const B = () => {
        
       </div>
 
-      {/* Previous Navigation and Main Content */}
-      {/* [Previous code remains the same until after the main content section] */}
       
-      {/* Time Breakdown Section */}
       <div className="flex flex-col items-center mt-24 mb-16">
         <div className="bg-zinc-800/50 p-12 rounded-lg max-w-lg">
           {timeBreakdown.map((item, index) => (
@@ -74,7 +70,6 @@ const B = () => {
         </div>
       </div>
 
-      {/* Launch Time */}
       <div className="text-center text-green-500 font-mono mt-8">
         const launch_time = "03:41 PM";
       </div>

@@ -6,14 +6,12 @@ const E = () => {
 <div className="bg-gray-700 text-white min-h-screen flex items-center justify-center"> 
 <div className="max-w-4xl mx-auto p-6">
         <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
-          {/* Image Section */}
           <div className="bg-yellow-100 rounded-lg p-6 flex flex-col items-center">
             <FaCrown className="text-yellow-500 text-6xl" />
             <h1 className="text-yellow-600 text-3xl font-bold mt-4">2023</h1>
             <p className="text-yellow-600 text-xl">Maker of the Year</p>
           </div>
 
-          {/* Text Section */}
           <div className="text-left">
             <h2 className="text-2xl font-bold">Hey, it's Marc 👋</h2>
             <p className="mt-4 text-gray-300">

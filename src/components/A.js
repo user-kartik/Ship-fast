@@ -12,7 +12,6 @@ const A = () => {
 
   return (
     <div className="min-h-screen bg-zinc-900 text-white p-8">
-      {/* Navigation */}
       <nav className="flex justify-between items-center mb-24">
         <div className="flex items-center gap-2">
           <BsLightningFill className="text-yellow-400 w-8 h-8" />
@@ -30,10 +29,8 @@ const A = () => {
         </button>
       </nav>
 
-      {/* Main Content */}
       <div className="flex justify-between items-center">
         <div className="max-w-2xl">
-          {/* Product of the day badge */}
           <div className="flex items-center gap-2 mb-6">
             <BsTrophy className="text-gray-400 w-4 h-4" />
             <span className="text-gray-400">Product of the day</span>
@@ -41,7 +38,6 @@ const A = () => {
             <BsTrophy className="text-gray-400 w-4 h-4" />
           </div>
 
-          {/* Hero Text */}
           <h1 className="text-6xl font-bold mb-6">
             Ship your startup<br />
             in days, <span className="bg-zinc-200 text-zinc-900 px-2 leading-tight">not weeks</span>

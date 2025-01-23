@@ -24,7 +24,6 @@ const F = () => {
     <div className="min-h-screen bg-zinc-900">
       
       <div className="max-w-4xl mx-auto py-16">
-        {/* Testimonial */}
         
         <div className="mb-16">
           <div className="flex justify-start mb-4">
@@ -40,9 +39,7 @@ const F = () => {
           </div>
         </div>
         
-        {/* FAQ Section */}
         <div className="flex flex-col md:flex-row justify-between">
-  {/* Left Side: Heading and Contact Info */}
   <div className="flex-1 md:pr-8">
     <h2 className="text-3xl font-bold text-white mb-4">Frequently Asked Questions</h2>
     <p className="mt-4 text-gray-400">
@@ -52,7 +49,6 @@ const F = () => {
     </p>
   </div>
 
-  {/* Right Side: FAQ Content */}
   <div className="flex-10 space-y-4">
     {faqItems.map((item, index) => (
       <div key={index} className="border-t border-zinc-800">

@@ -23,18 +23,16 @@ const placeholderImages = [
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXCjoFsj_cp-hJWj0JqwuL0eqb2lv9FJmVng&s",
 ];
 
-// Shuffle function to randomize the order of items
 const shuffleArray = (array) => {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+    [array[i], array[j]] = [array[j], array[i]]; 
   }
 };
 
 const G = () => {
-  // Create a combined array of videos and placeholder images
   const combinedItems = [...videos, ...placeholderImages];
-  shuffleArray(combinedItems); // Shuffle the combined items
+  shuffleArray(combinedItems); 
 
   return (
     <div className="bg-zinc-900 min-h-screen p-8">
@@ -54,7 +52,6 @@ const G = () => {
                 </div>
               )}
 
-              {/* Render either a video or an image depending on the type */}
               {item.endsWith('.mp4') ? (
                 <video
                   src={item}
